@@ -1,8 +1,27 @@
 
-# <div align="center">Sangmin Lee 
-<div align="right">204-312-0459 </div>
-<div align="right">winnibear12@gmail.com </div>
-<div align="right">github.com/winnibear12 </div>
+# <div align="center">
+  
+  Sangmin Lee 
+
+</div> 
+
+<div align="right">
+  
+  204-312-0459 
+
+</div>
+
+<div align="right">
+  
+  winnibear12@gmail.com 
+
+</div>
+
+<div align="right">
+  
+  github.com/winnibear12 
+
+</div>
 
 
 
