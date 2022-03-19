@@ -1,7 +1,5 @@
 
-# <div align="center">
-  
-  Sangmin Lee 
+# <div align="center"> Sangmin Lee 
 
 </div> 
 
