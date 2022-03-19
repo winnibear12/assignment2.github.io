@@ -1,3 +1,4 @@
+<dl>
 # <div align="center">Sangmin Lee 
 <div align="right">204-312-0459 </div>
 <div align="right">winnibear12@gmail.com </div>
@@ -57,4 +58,4 @@
 
   - Organized language exchange (Korean/English) at University of Manitoba 
   - Provided professional leadership
-
+</dl>
