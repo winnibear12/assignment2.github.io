@@ -89,5 +89,10 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 
 1. Make a repository named [respoitory name].github.io
 2. Under the repository, make a upload or write a resume.md file
-3. 
+3. Under settings, enable Github pages
+4. Choose a Jekyll theme
+5. Make a _config.yml file
+6. Edit _config.yml <pre><code> title: Resume theme: jekyll-theme-cayman </code></pre>
 
+    <pre><code> theme: jekyll-theme-cayman </code></pre>
+7. You are all set!
