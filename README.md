@@ -47,9 +47,9 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
    
    There is a requirements before you installing jekyll.
 
-   - Ruby version 2.50 or higher. (Check your Ruby version) <pre><code> ruby -v </code></pre> 
-   - RubyGems <pre><code> gem -v </code></pre>
-   - GCC & Make <pre><code>gcc -v </code></pre> <pre><code>make -v </code></pre>
+   - Ruby version 2.50 or higher. (Check your Ruby version) <code> ruby -v </code> 
+   - RubyGems <code> gem -v </code>
+   - GCC & Make <code>gcc -v </code> <code>make -v </code>
   
 2. Setup Command line tools  
    - open a terminal run this command
