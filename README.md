@@ -167,3 +167,38 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 7. You are all set!  
 
 
+
+
+
+
+
+
+
+
+
+# FAQs
+
+## I am using apple M1 processor and I am having trouble with jekyll.
+- This might be a problem with the pre-installed Ruby version with Mac.
+- We need to re-install the Ruby with 3.0 version
+  
+  1. <code> export SDKROOT=$(xcrun --show-sdk-path) </code>
+      * after running this command, there should be no errors
+
+  2. <code> ruby -v </code>
+      * macOS are all pre-installed the Ruby and the pre-installed versions can not be used, so we need to install Ruby 3.x version manually.
+
+  3. <code> brew install ruby@3.0 </code> 
+      * install Ruby 3.0
+
+  4. <code> echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc </code>
+      * run this command to Ruby in the first in path
+
+  5. close the terminal and reopen it
+  6. <code> ruby -v </code>
+      * check if ruby version is changed to 3.x
+
+
+
+
+
