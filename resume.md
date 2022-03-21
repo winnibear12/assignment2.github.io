@@ -1,38 +1,37 @@
 
-# <div align="center"> Sangmin Lee 
+# <p align="center"> Sangmin Lee 
 
-</div> 
+<p> 
 
-<div align="right">
+<p align="right">
   
   204-312-0459 
 
-</div>
+<p>
 
-<div align="right">
+<p align="right">
   
   winnibear12@gmail.com 
 
-</div>
+</p>
 
-<div align="right">
+<p align="right">
   
   github.com/winnibear12 
 
-</div>
+</p>
 
 
-
-## <div align="center"> EDUCATION </div>
-
-
-<div align="center"> Bachelor of Science - Computer Science Major (Minor: Mathematics) </div> 
-<div align="center"> University of Manitoba | Expected: May 2022 </div>
+## <p align="center"> EDUCATION </p>
 
 
-## <div align="center"> TECHNICAL SKILLS </div>
+<p align="center"> Bachelor of Science - Computer Science Major (Minor: Mathematics) </p> 
+<p align="center"> University of Manitoba | Expected: May 2022 </p>
 
-<div align="center">
+
+## <p align="center"> TECHNICAL SKILLS </p>
+
+<p align="center">
 
 | Programming Languages     | Tools and techonlogies | Certificates         |
 | -----------               | -----------            |-------------         |
@@ -41,25 +40,32 @@
 | Python                    | Unreal Engine          |                      |
 | Swift                     | Android Studio         |                      |
 
-</div>
+</p>
 
-## <div align="center"> WORK EXPERIENCES </div>
+## <p align="center"> WORK EXPERIENCES </p>
 
-**AWS cloud bootcamp**  <div align="right"> **Dec 2021 ~ Jan 2022** </div>
+<p style="text-align:left;">
+    AWS cloud bootcamp
+    <span style="float:right;">
+        **Dec 2021 ~ Jan 2022**
+    </span>
+</p>
+
+**AWS cloud bootcamp**  <p align="right"> **Dec 2021 ~ Jan 2022** </p>
 <br/>**Comento**</br>
   - Setting AWS cloud environment based on Elastic Kubernetes
   - Setting EFK Stack to collect log
   - Monitoring AWS services by CloudWatch and send notifications to Slack
 
 
-**Cook**  <div align="right">**July 2017 ~ July 2021**</div>
+**Cook**  <p align="right">**July 2017 ~ July 2021**</p>
 <br/>**Wildwing Restaurant** </br>
 
   -  Worked at fast paced environment
   -  Learned new things in short time
   -  Performed work in timely manner 
 
-**Secretary of Colonel & Radioman** <div align="right"> **April 2014 ~ January 2016**</div>
+**Secretary of Colonel & Radioman** <p align="right"> **April 2014 ~ January 2016**</p>
 <br/>**Republic of Korea Army**</br>
 
   - Worked as a group leader
@@ -68,9 +74,9 @@
   - Learned how to deal with conflicts with collegues 
 
 
-## <div align="center"> EXTRACURRICULAR EXPERIENCES </div>
+## <p align="center"> EXTRACURRICULAR EXPERIENCES </p>
 
-**Event Organizer** <div align="right"> **September 2019 ~ April 2020** </div>
+**Event Organizer** <p align="right"> **September 2019 ~ April 2020** </p>
 </br>**University of Manitoba Korean Student Asscoiation**</br> 
 
   - Organized language exchange (Korean/English) at University of Manitoba 
