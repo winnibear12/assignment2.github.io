@@ -14,7 +14,8 @@ github.com/winnibear12
 
 
 Bachelor of Science - Computer Science Major (Minor: Mathematics) 
-University of Manitoba | Expected: May 2022 
+University of Manitoba  
+Expected: May 2022 
 
 
 ## TECHNICAL SKILLS 
