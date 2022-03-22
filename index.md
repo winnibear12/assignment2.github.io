@@ -4,7 +4,7 @@
 
 204-312-0459  
 
-winnibear12@gmail.com. 
+winnibear12@gmail.com 
 
 github.com/winnibear12 
 
