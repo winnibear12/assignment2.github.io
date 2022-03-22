@@ -2,7 +2,16 @@
 # Practical steps for hosting you resume with Markdown and Jekyll
 ---
 
-### Purpose : To give information about how to host a resume on Github pages to Computer Science students
+### Purpose : To give information about how to host a resume on Github pages to Computer Science students.  
+
+Audience: CS Student
+Venue: README in GitHub Pages
+Purpose: Explain how to host a resume on GitHub Pages.
+Additional purpose: Introduce and demonstrate the principles of Andrew Etter's
+book Modern Technical Writing
+Desired Reaction: Understood the information
+Vocabulary: Concise
+Tone: Objective
    
 ---
 ## Prerequisites
