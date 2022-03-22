@@ -2,8 +2,10 @@
 # Sangmin Lee 
 
 
-204-312-0459 
-winnibear12@gmail.com 
+204-312-0459  
+
+winnibear12@gmail.com  
+
 github.com/winnibear12 
 
 
@@ -32,7 +34,8 @@ University of Manitoba | Expected: May 2022
 
 
 
-**AWS cloud bootcamp**   
+**AWS cloud bootcamp**  
+
 **Comento**
 
 **Dec 2021 ~ Jan 2022**
@@ -41,7 +44,8 @@ University of Manitoba | Expected: May 2022
   - Monitoring AWS services by CloudWatch and send notifications to Slack
 
 
-**Cook** 
+**Cook**  
+
 **Wildwing Restaurant**  
 
 **July 2017 ~ July 2021**
@@ -52,6 +56,7 @@ University of Manitoba | Expected: May 2022
   -  Performed work in timely manner 
 
 **Secretary of Colonel & Radioman**  
+
 **Republic of Korea Army**  
 
 **April 2014 ~ January 2016**
