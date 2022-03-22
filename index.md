@@ -69,7 +69,8 @@ University of Manitoba | Expected: May 2022
 
 ## EXTRACURRICULAR EXPERIENCES 
 
-**Event Organizer** 
+**Event Organizer**  
+
 **University of Manitoba Korean Student Asscoiation**  
 
 **September 2019 ~ April 2020**
