@@ -2,7 +2,7 @@
 # Practical steps for hosting you resume with Markdown and Jekyll
 ---
 
-## Purpose : To give information about how to host a resume on Github pages to Computer Science students.
+### Purpose : To give information about how to host a resume on Github pages to Computer Science students
    
 ---
 ## Prerequisites
@@ -20,13 +20,16 @@
 ---
 ## What is Markdown?  
 
+In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter stated that Markdown is the moset widely used markup language in the world.
+
 - Markdown is a lightweight markup language to make writing for online easier. It is easier to learn and easier to convert to HTML.
 - It is widely used for Github, Skype, Slack and Facebook Massenger.
 
 ## Why we use Markdown?
 
-- It is easy to learn  
-  
+In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter wrote that markdown is lightweight, has simple syntax.
+
+- It is easy to learn. 
   * Compared to the other language, the syntax is really simple.
 - It is fast  
   * The simple syntax will save your writing process.
@@ -35,7 +38,6 @@
   * Markdown can be written and read on any OS and it's mobile friendly too.
 
   
-
 
 ## How do we use Markdown?  
 
@@ -51,8 +53,8 @@
 
 ## Setting up your Markdown editor
 
-1. Follow this link to download [Visual Studio Code](https://code.visualstudio.com/)
-2. Click Extensions button at the left pannel
+1. Follow this link to download [Visual Studio Code](https://code.visualstudio.com/).
+2. Click Extensions button at the left pannel.
 3. Search **Markdown All in One** and **Markdown Preview** extension.
 4. You are ready to write a Markdown file!
 
@@ -68,18 +70,25 @@
 
 ## Why do we use static website?
 
+In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS),  Etter mentioned 4 reasons why he loves static website:  
+ 1. Speed
+ 2. Simplicity
+ 3. Portability
+ 4. Security
+
+More advantages of using static website:
+
 - Static site can decouple your front-end and your content repository.
-- It has faster loading speed than dynamic websites
-- It is easier to make a website
-- Better security
-- Mobile friendly
+- It has faster loading speed than dynamic websites.
+- It is easier to make a website.
+- It has better security.
+- It is mobile friendly.
 
 ## What static genrators will use?
 
 In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the most popular static site generator and it is designed to make a beautiful, functional documentation website.
 
 
-## Follow this steps
 
 ### Prepare your resume in Markdown format
 
@@ -139,7 +148,7 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 3. <code> bundle exec jekyll serve </code>
    * Jekyll will compile your files to a website.
    * **If you have a error called "cannot load such file webrick (LoadError)", then run** <code>bunle add webrick </code> **to install missing bundle** 
-   [refer to this page](https://github.com/jekyll/jekyll/issues/8523) 
+   [Refer to this page](https://github.com/jekyll/jekyll/issues/8523) 
 4. Check your server address 
    * example) Server address: 123.0.0.1:7000/
 5. Check your website on the browser!
@@ -156,16 +165,23 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 #### Follow this step
 
 1. Make a repository named [respoitory name].github.io
-   [follow this page to setup](https://kbroman.org/github_tutorial/pages/init.html)
-2. Under the repository, make a upload or write a resume (foramtted with markdown) file
-3. Under settings, enable Github pages
-4. Choose a Jekyll theme
-5. Make a _config.yml file
+   [Follow this page to setup](https://kbroman.org/github_tutorial/pages/init.html)
+2. Under the repository, make a upload or write a resume (foramtted with markdown) file.
+3. Under settings, enable Github pages.
+4. Choose a Jekyll theme.
+5. Make a _config.yml file.
 6. Edit _config.yml <pre><code> title: Resume theme: jekyll-theme-cayman </code></pre>
 
     <pre><code> theme: jekyll-theme-cayman </code></pre>
 7. You are all set!  
 
+---
+# More resources
+---
+
+1. [Markdown tutorial](https://www.markdowntutorial.com/) 
+2. [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+3. [Mike Dane's Jekyll tutorial](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
 
 
 
@@ -174,11 +190,17 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 
 
 
-
-
+---
 # FAQs
+---
+## Why do we use static website?
+   
+   
+   According to the Etter's [book]((https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)), Etter mentioned that static websites are no server-side application dependencies, no databases, and nothing to install, also it it migrating entire site is easier.  
+     
 
 ## I am using apple M1 processor and I am having trouble with jekyll.
+
 - This might be a problem with the pre-installed Ruby version with Mac.
 - We need to re-install the Ruby with 3.0 version
   
@@ -198,7 +220,15 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
   6. <code> ruby -v </code>
       * check if ruby version is changed to 3.x
 
+   [Comeback to reading](###Install-Jekyll-on-MacOS)
 
 
 
 
+---
+# Authors and Acknowledgements
+---
+
+I thank to Andrew Etter who wrote "Modern Technical Writing: An Introduction to Software Documentation" for providing quality contents of how to write techinical documents.
+
+.....more acknowledgements after peer review.
