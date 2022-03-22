@@ -219,7 +219,6 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
   6. <code> ruby -v </code>
       * check if ruby version is changed to 3.x
 
-   [Comeback to reading](###Install-Jekyll-on-MacOS)
 
 
 
