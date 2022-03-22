@@ -168,9 +168,9 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 1. Make a repository named [respoitory name].github.io
    [Follow this page to setup](https://kbroman.org/github_tutorial/pages/init.html)
 2. Under the repository, make a upload or write a resume (foramtted with markdown) file.
-   File name should be "index" 
+   File name should be "index" and format should be .md .
 3. Under settings, enable Github pages.
-4. Edit _config.yml <pre><code> title: Resume theme: jekyll-theme-cayman </code></pre>
+4. Edit _config.yml. <pre><code> title: Resume theme: jekyll-theme-cayman </code></pre>
 
     <pre><code> theme: jekyll-theme-cayman </code></pre>
 5. You are all set!  
