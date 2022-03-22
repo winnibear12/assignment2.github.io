@@ -71,7 +71,7 @@ In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Do
 
 1. Follow this link to download [Visual Studio Code](https://code.visualstudio.com/).
 2. Click Extensions button at the left pannel.
-3. Search **Markdown All in One** and **Markdown Preview** extension.
+3. Search **Markdown All in One** and **Markdown Preview** extension and download them.
 4. You are ready to write a Markdown file!
 
 
