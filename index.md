@@ -2,8 +2,10 @@
 # Sangmin Lee 
 
 
-204-312-0459 
-winnibear12@gmail.com 
+204-312-0459  
+
+winnibear12@gmail.com. 
+
 github.com/winnibear12 
 
 
