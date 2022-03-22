@@ -14,8 +14,8 @@
 4. Prepare Markdown editor like Atom, iAWriter or Visual Studio code with markdown plugin.
 
 
+![Check out my resume!](resume.gif)
 ---
-
 # Markdown   
 ---
 ## What is Markdown?  
