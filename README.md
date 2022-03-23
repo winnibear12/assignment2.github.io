@@ -2,7 +2,7 @@
 # Practical steps for hosting you resume with Markdown and Jekyll
 ---
 
-### Purpose : To give information about how to host a resume on Github pages to Computer Science students.  
+### The purpose of this Readme is to give information about how to host a resume on Github pages using Jekyll to Computer Science students.  
 
    
 ---
@@ -14,21 +14,51 @@
    [Markdown tutorial](https://www.markdowntutorial.com/)
 4. Prepare Markdown editor like Atom, iAWriter or Visual Studio code with markdown plugin.
 
+---
+## Before you start..
+---
 
-![Check out my resume!](resume.gif)
+The author of [Modern Techinical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Andrew Etter, is a documentation manager at Google. In his book (Modern Techinical Writing), He provided helpful principles when you are documenting a techinical article. I want to emphasize that this principles helped me to write this Readme file.
+
+  **Define the Audience**
+
+   There are roughly 3 kinds of readers:
+
+   1. Users: People who just want to use the application.
+   2. Administrators: People who install and configure applications.
+   3. Developers: People who extend applications or interfaces with code.
+
+
+  **Build a website**
+
+   - Avoid distribute PDFs, and make a website instead.
+   - With PDFs, you can never update them.
+   - Hosting your writing can give you a ability to fix mistakes and keep your contents up-to-date.
+
+  **Use Lightweight Markup**
+
+  - Markdown is the most widely used markup language and it has simple syntax.
+  - Github flavoured Markdown is a popular for web-based systems.
+
+  **Use Distributed Version Control**
+
+  - Using distributed version control tool like Github.
+  - The contents will stay in sync.
+  - It is useful when you collaborate the contents with others.
+
 ---
 # Markdown   
 ---
 ## What is Markdown?  
 
-In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter stated that Markdown is the moset widely used markup language in the world.
+In Andrew Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter stated that Markdown is the most widely used markup language in the world.
 
 - Markdown is a lightweight markup language to make writing for online easier. It is easier to learn and easier to convert to HTML.
 - It is widely used for Github, Skype, Slack and Facebook Massenger.
 
 ## Why we use Markdown?
 
-In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter wrote that markdown is lightweight, has simple syntax.
+In Andrew Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), Etter wrote that markdown is lightweight, has simple syntax.
 
 - It is easy to learn. 
   * Compared to the other language, the syntax is really simple.
@@ -67,11 +97,12 @@ In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Do
 ## What is a static website
 
 - It is a decoupled website which means every page is individual html files.
-  
+- According to the Andrew Etter's [book]((https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)), Etter mentioned that static websites are no server-side application dependencies, no databases, and nothing to install, also it it migrating entire site is easier.  
+       
 
 ## Why do we use static website?
 
-In Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS),  Etter mentioned 4 reasons why he loves static website:  
+In Andrew Etter's [book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS),  Etter mentioned 4 reasons why he loves static website:  
  1. Speed
  2. Simplicity
  3. Portability
@@ -85,7 +116,7 @@ More advantages of using static website:
 - It has better security.
 - It is mobile friendly.
 
-## What static genrators will use?
+## What static generator we will use?
 
 In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the most popular static site generator and it is designed to make a beautiful, functional documentation website.
 
@@ -152,7 +183,13 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
    [Refer to this page](https://github.com/jekyll/jekyll/issues/8523) 
 4. Check your server address 
    * example) Server address: 123.0.0.1:7000/
+   ![jekeyll_running](jekyll_server.png)
+
 5. Check your website on the browser!
+   
+
+   ![static website](static_site.png)
+   
 
 
 ### Setting up your GitHub page  
@@ -163,17 +200,39 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 2. your resume with Markdown format
 
 
-#### Follow this step
+#### Follow this step (talk aboht more readme)
 
-1. Make a repository named [respoitory name].github.io
+1. Make a repository named [Github username].github.io
    [Follow this page to setup](https://kbroman.org/github_tutorial/pages/init.html)
-2. Under the repository, make a upload or write a resume (foramtted with markdown) file.
-   File name should be "index" and format should be .md .
-3. Under settings, enable Github pages.
-4. Edit _config.yml. <pre><code> title: Resume theme: jekyll-theme-cayman </code></pre>
 
-    <pre><code> theme: jekyll-theme-cayman </code></pre>
-5. You are all set!  
+   ![repository name](repository_name.png)
+2. Under the repository(root), make a upload or write a resume (foramtted with markdown) file.
+   File name should be "index" and format should be .md .  
+   ![root directory](root.png)
+   
+
+3. upload a README markdown file.
+   
+   ![file names](files.png)
+4. Under settings, enable Github pages.
+   
+   ![enable github page](files.png)
+5. Edit _config.yml. 
+   
+    ![yaml](yaml.png)
+
+
+   <pre><code> title: Resume </code></pre>
+   <pre><code> theme: jekyll-theme-cayman </code></pre>
+
+6. Check your Github page follow: "your_username.github.io"
+   
+    ![address](address.png)
+
+7. Now you hosted your resume on Github!
+
+   ![Check out my resume!](resume.gif)
+
 
 ---
 # More resources
@@ -196,10 +255,11 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 ## Why do we use static website?
    
    
-   According to the Etter's [book]((https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)), Etter mentioned that static websites are no server-side application dependencies, no databases, and nothing to install, also it it migrating entire site is easier.  
+   According to the Andrew Etter's [book]((https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)), Etter mentioned that static websites are no server-side application dependencies, no databases, and nothing to install, also it it migrating entire site is easier.  
      
 
 ## I am using apple M1 processor and I am having trouble with jekyll.
+
 
 - This might be a problem with the pre-installed Ruby version with Mac.
 - We need to re-install the Ruby with 3.0 version
@@ -227,7 +287,8 @@ In this instruction, we will use [Jekyll](http://jekyllrb.com/). Jekyll is the m
 ---
 # Authors and Acknowledgements
 ---
+Thanks to Jason Long for providing cayman theme on Github pages.
 
 I thank to Andrew Etter who wrote "Modern Technical Writing: An Introduction to Software Documentation" for providing quality contents of how to write techinical documents.
 
-.....more acknowledgements after peer review.
+Special thanks to my group 7 from COMP3040 class.
